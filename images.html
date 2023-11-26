@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Изображения</title>
+</head>
+<body>
+  <h1>Изображения в HTML</h1>
+  <p>
+    Для отображения изображений в HTML используется тег <em>img</em>.
+    Для отображения посредством него картинки необходимо в его
+    атрибут <em>src</em> положить адрес на картинку:
+  </p>
+  <img src="https://w.forfun.com/fetch/71/71f0c755f4b257fb9987c25743d16388.jpeg">
+  <p>
+    Также у изображения есть атрибут <em>alt</em>. Это текст,
+    который отобразится, если изображение не загрузится, или
+    если в пути к файлу была допущена ошибка:
+  </p>
+  <img src="https://w.frfun.com/fetch/71/71f0c755f4b257fb9987c25743d16388.jpeg" alt="Тут должна была быть дорога">
+  <p>
+    К слову, путь к пишется таким же образом, что и в ссылке
+    в атрибуте <em>href</em> тега <em>a</em>.
+  </p>
+  <p>
+    Изменять размер изображения можно меняя его атрибуты <em>width</em>
+    и <em>height</em>:
+  </p>
+  <img width="100" height="100" src="https://w.forfun.com/fetch/71/71f0c755f4b257fb9987c25743d16388.jpeg">
+  <p>
+    Атрубуты указываются в пикселях. Если указать только один из этих
+    атрибутов, то HTML изменит размеры в соответствии с предыдущем
+    соотношением сторон.
+  </p>
+  <p>Только <em>height</em></p>
+  <img height="100" src="https://w.forfun.com/fetch/71/71f0c755f4b257fb9987c25743d16388.jpeg">
+  <p>Только <em>width</em></p>
+  <img width="100" src="https://w.forfun.com/fetch/71/71f0c755f4b257fb9987c25743d16388.jpeg">
+  <p>
+    Ссылки могут содержать в себе изображение. То есть, при клике по
+    этому изображению будет осуществлен переход по ссылке:
+  </p>
+  <a width="100" href="https://ru.wikipedia.org/wiki/Кошка">
+    <img src="https://www.wallpaperflare.com/static/27/787/660/cat-muzzle-eyes-brown-wallpaper.jpg">
+  </a>
+</body>
+</html>
